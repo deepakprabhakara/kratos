@@ -126,6 +126,8 @@ github.com/decred/dcrd/crypto/blake256 v1.0.1/go.mod h1:2OfgNZ5wDpcsFmHmCK5gZTPc
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.2.0/go.mod h1:v57UDF4pDQJcEfFUCRop3lJL149eHGSe9Jvczhzjo/0=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 h1:rpfIENRNNilwHwZeG5+P150SMrnNEcHYvcCuK6dPZSg=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0/go.mod h1:v57UDF4pDQJcEfFUCRop3lJL149eHGSe9Jvczhzjo/0=
+github.com/deepakprabhakara/go-oidc/v3 v3.0.0-20250329122941-e1fec2264250 h1:Xtbv99Os9pE7zJ7kkt3x4sCH0/VAuj1T6Qxc4XRc0cA=
+github.com/deepakprabhakara/go-oidc/v3 v3.0.0-20250329122941-e1fec2264250/go.mod h1:Jxfv2TPRvdJuLfmkvokss8dkguhMmer2UvARU6SWy0Y=
 github.com/dghubble/oauth1 v0.7.3 h1:EkEM/zMDMp3zOsX2DC/ZQ2vnEX3ELK0/l9kb+vs4ptE=
 github.com/dghubble/oauth1 v0.7.3/go.mod h1:oxTe+az9NSMIucDPDCCtzJGsPhciJV33xocHfcR2sVY=
 github.com/dgraph-io/ristretto/v2 v2.1.0 h1:59LjpOJLNDULHh8MC4UaegN52lC4JnO2dITsie/Pa8I=
@@ -619,8 +621,6 @@ github.com/ory/dockertest/v3 v3.11.0 h1:OiHcxKAvSDUwsEVh2BjxQQc/5EHz9n0va9awCtNG
 github.com/ory/dockertest/v3 v3.11.0/go.mod h1:VIPxS1gwT9NpPOrfD3rACs8Y9Z7yhzO4SB194iUDnUI=
 github.com/ory/go-acc v0.2.9-0.20230103102148-6b1c9a70dbbe h1:rvu4obdvqR0fkSIJ8IfgzKOWwZ5kOT2UNfLq81Qk7rc=
 github.com/ory/go-acc v0.2.9-0.20230103102148-6b1c9a70dbbe/go.mod h1:z4n3u6as84LbV4YmgjHhnwtccQqzf4cZlSk9f1FhygI=
-github.com/ory/go-oidc/v3 v3.0.0-20241127113405-e5362711266b h1:PHfiybEhBiabSpPAD5Vq8BotzBrvCUgZN3OrAy3w5u8=
-github.com/ory/go-oidc/v3 v3.0.0-20241127113405-e5362711266b/go.mod h1:Jxfv2TPRvdJuLfmkvokss8dkguhMmer2UvARU6SWy0Y=
 github.com/ory/graceful v0.1.4-0.20230301144740-e222150c51d0 h1:VMUeLRfQD14fOMvhpYZIIT4vtAqxYh+f3KnSqCeJ13o=
 github.com/ory/graceful v0.1.4-0.20230301144740-e222150c51d0/go.mod h1:hg2iCy+LCWOXahBZ+NQa4dk8J2govyQD79rrqrgMyY8=
 github.com/ory/herodot v0.10.3-0.20230626083119-d7e5192f0d88 h1:J0CIFKdpUeqKbVMw7pQ1qLtUnflRM1JWAcOEq7Hp4yg=

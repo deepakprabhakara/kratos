@@ -5,6 +5,7 @@ package oidc
 
 import (
 	"context"
+	"fmt"
 	"net/url"
 	"slices"
 
@@ -146,6 +147,8 @@ func (g *ProviderGenericOIDC) claimsFromUserInfo(ctx context.Context, exchange *
 	if err := userInfo.Claims(&rawClaims); err != nil {
 		return nil, errors.WithStack(herodot.ErrBadRequest.WithReasonf("%s", err))
 	}
+	fmt.Println("rawClaims:", rawClaims)
+	fmt.Println("claims:", claims)
 	claims.RawClaims = rawClaims
 
 	// NOTE: Due to the possibility of token substitution attacks (see Section
