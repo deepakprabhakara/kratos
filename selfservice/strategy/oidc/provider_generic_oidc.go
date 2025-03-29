@@ -120,6 +120,7 @@ func (g *ProviderGenericOIDC) verifyAndDecodeClaimsWithProvider(ctx context.Cont
 }
 
 func (g *ProviderGenericOIDC) Claims(ctx context.Context, exchange *oauth2.Token, _ url.Values) (*Claims, error) {
+	fmt.Println("ProviderGenericOIDC: Claims:")
 	switch g.config.ClaimsSource {
 	case ClaimsSourceIDToken, "":
 		return g.claimsFromIDToken(ctx, exchange)
