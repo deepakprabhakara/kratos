@@ -5,6 +5,7 @@ package oidc
 
 import (
 	"context"
+	"fmt"
 	"strings"
 
 	"github.com/coreos/go-oidc/v3/oidc"
@@ -30,6 +31,8 @@ func NewProviderJackson(
 }
 
 func (j *ProviderJackson) setProvider(ctx context.Context) {
+	fmt.Println("jackson: setProvider:")
+
 	if j.ProviderGenericOIDC.p == nil {
 		internalHost := strings.TrimSuffix(j.config.TokenURL, "/api/oauth/token")
 		config := oidc.ProviderConfig{
@@ -46,6 +49,7 @@ func (j *ProviderJackson) setProvider(ctx context.Context) {
 }
 
 func (j *ProviderJackson) OAuth2(ctx context.Context) (*oauth2.Config, error) {
+	fmt.Println("jackson: OAuth2:")
 	j.setProvider(ctx)
 	endpoint := j.ProviderGenericOIDC.p.Endpoint()
 	config := j.oauth2ConfigFromEndpoint(ctx, endpoint)

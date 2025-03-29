@@ -113,6 +113,9 @@ func (g *ProviderGenericOIDC) verifyAndDecodeClaimsWithProvider(ctx context.Cont
 	}
 	claims.RawClaims = rawClaims
 
+	fmt.Println("rawClaims:", rawClaims)
+	fmt.Println("claims:", claims)
+
 	return &claims, nil
 }
 
